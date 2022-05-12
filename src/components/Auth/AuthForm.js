@@ -129,7 +129,7 @@ function AuthForm(props) {
       </div>
       <div className={classes.footer}>
         <IconButton
-          href="https://github.com/sikrewalrohit/cmpe-280-podcast-app"
+          href="https://github.com/sikrewalrohit/cmpe-280-final-project"
           target="_blank"
           size="large"
         >

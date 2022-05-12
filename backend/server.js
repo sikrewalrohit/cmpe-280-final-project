@@ -26,7 +26,7 @@ app.set("trust proxy", 1);
 app.use(express.static(path.join(__dirname, "../build")));
 app.use(express.json());
 // app.use(cors({ origin: /^.+localhost:3000$/ }));
-app.use(cors({ origin: /^.+http:54.160.147.109:3000$/ }));
+app.use(cors({ origin: /^.+54.160.147.109:3000$/ }));
 app.use(helmet());
 app.use(morgan(process.env.NODE_ENV === "production" ? "combined" : "dev"));
 
